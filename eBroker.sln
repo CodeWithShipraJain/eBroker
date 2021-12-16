@@ -1,0 +1,67 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker", "eBroker\eBroker.csproj", "{DD93DBAD-5313-4213-9EC5-2EA87A452205}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Service", "eBroker.Service\eBroker.Service.csproj", "{D2B98C52-0932-46E6-9366-3C0E5D7A33DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Repository", "eBroker.Repository\eBroker.Repository.csproj", "{C5484D52-4143-43CB-AD77-B45B8BCF3686}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{5781B02E-9C1B-43A8-A211-0FBB8E28D34B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D5861BF7-929A-4452-80A4-DB6EA147EFA2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Test", "eBroker.Test\eBroker.Test.csproj", "{91DA27FC-C309-4CC9-8159-20B81A5C842F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Service.Test", "eBroker.Service.Test\eBroker.Service.Test.csproj", "{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "eBroker.Repository.Test", "eBroker.Repository.Test\eBroker.Repository.Test.csproj", "{6729CB63-07C5-49A0-AAD1-4271A6358818}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DD93DBAD-5313-4213-9EC5-2EA87A452205}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD93DBAD-5313-4213-9EC5-2EA87A452205}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD93DBAD-5313-4213-9EC5-2EA87A452205}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD93DBAD-5313-4213-9EC5-2EA87A452205}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2B98C52-0932-46E6-9366-3C0E5D7A33DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2B98C52-0932-46E6-9366-3C0E5D7A33DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2B98C52-0932-46E6-9366-3C0E5D7A33DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2B98C52-0932-46E6-9366-3C0E5D7A33DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C5484D52-4143-43CB-AD77-B45B8BCF3686}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C5484D52-4143-43CB-AD77-B45B8BCF3686}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C5484D52-4143-43CB-AD77-B45B8BCF3686}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C5484D52-4143-43CB-AD77-B45B8BCF3686}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DA27FC-C309-4CC9-8159-20B81A5C842F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DA27FC-C309-4CC9-8159-20B81A5C842F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DA27FC-C309-4CC9-8159-20B81A5C842F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DA27FC-C309-4CC9-8159-20B81A5C842F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6729CB63-07C5-49A0-AAD1-4271A6358818}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6729CB63-07C5-49A0-AAD1-4271A6358818}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6729CB63-07C5-49A0-AAD1-4271A6358818}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6729CB63-07C5-49A0-AAD1-4271A6358818}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DD93DBAD-5313-4213-9EC5-2EA87A452205} = {5781B02E-9C1B-43A8-A211-0FBB8E28D34B}
+		{D2B98C52-0932-46E6-9366-3C0E5D7A33DB} = {5781B02E-9C1B-43A8-A211-0FBB8E28D34B}
+		{C5484D52-4143-43CB-AD77-B45B8BCF3686} = {5781B02E-9C1B-43A8-A211-0FBB8E28D34B}
+		{91DA27FC-C309-4CC9-8159-20B81A5C842F} = {D5861BF7-929A-4452-80A4-DB6EA147EFA2}
+		{C4EDE8A6-AFD1-4D91-8691-B1D11E4F2CB7} = {D5861BF7-929A-4452-80A4-DB6EA147EFA2}
+		{6729CB63-07C5-49A0-AAD1-4271A6358818} = {D5861BF7-929A-4452-80A4-DB6EA147EFA2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {38175FCD-3EA1-4433-94AA-297ECDA392A5}
+	EndGlobalSection
+EndGlobal
