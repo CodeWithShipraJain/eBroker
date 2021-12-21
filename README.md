@@ -28,7 +28,7 @@ Test cases were not developed for startup.cs and main.cs
 - Go to the ~/eBroker path in command prompt
 - To run test case execute following command: `dotnet test`
 - To build the solution execute following command: `dotnet build`
-- To run the solution execute following command: `dotnet run --project eBroker`
+- To run the solution execute following command: `dotnet run --project eBroker/eBroker.csproj`
 - Run following api: (Currently we have following equity id: 1,2,3,4,5,6,7)
   - To add fund value: POST https://localhost:44371/api/fund/add/{amount}
   - To buy equity:     POST https://localhost:44371/api/trader/equity/{equityId}/buy/{quantity}
