@@ -188,6 +188,24 @@ namespace eBroker.Service.Test
         /// Function to test sell equity at non trading hours
         /// </summary>
         [Fact]
+        public void SellEquity_SellingWithInsufficientBalance_RaiseException()
+        {
+            // Arrange
+            _traderFundRepositoryMoq.Setup(repo => repo.GetById(_traderFund.Id)).Returns(new TraderFund { Id = 1, RemainingBalance = 5 });
+            _equityRepositoryMoq.Setup(repo => repo.GetById(_equity1.Id)).Returns(new Equity { Id = 1, EquityName = "Testing", Price = 5 });
+            _traderEquityRepositoryMoq.Setup(repo => repo.Get(_traderFund.Id, _equity1.Id)).Returns(new TraderEquity { Id = 1, TraderId = 1, EquityId = 1, Quantity = 5 });
+            DateTimeHelper.Set(new DateTime(2021, 12, 14, 12, 13, 15));
+            var traderFundService = new TraderEquityService(_traderFundRepositoryMoq.Object, _equityRepositoryMoq.Object, _traderEquityRepositoryMoq.Object);
+
+            // Act and Assert
+            Exception ex = Assert.Throws<Exception>(() => traderFundService.SellEquity(1, 1));
+            Assert.Equal("Insufficient Fund value", ex.Message);
+        }
+
+        /// <summary>
+        /// Function to test sell equity at non trading hours
+        /// </summary>
+        [Fact]
         public void SellEquity_SellingAtNonTradingHour_RaiseException()
         {
             // Arrange

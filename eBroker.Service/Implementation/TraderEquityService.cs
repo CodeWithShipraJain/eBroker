@@ -118,6 +118,11 @@ namespace eBroker.Service.Implementation
             var totalAmount = equity.Price * qty;
             var brokerage = totalAmount * 0.05 / 100 < 20 ? 20 : totalAmount * 0.05 / 100;
 
+            if (trader.RemainingBalance + (totalAmount - brokerage) < 0)
+            {
+                throw new Exception("Insufficient Fund value");
+            }
+
             // updating the the database
             traderEquity.Quantity = traderEquity.Quantity - qty;
             traderEquity = _traderEquityRepository.AddOrUpdate(traderEquity);

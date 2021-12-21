@@ -64,30 +64,7 @@ namespace eBroker
             });
 
             // Load initial Equities
-            LoadData(serviceProvider.GetService<ApiContext>());
+            serviceProvider.GetService<ApiContext>().LoadData();
         }
-
-        #region Private Methods
-
-        /// <summary>
-        /// Function to load the Equities
-        /// </summary>
-        /// <param name="context">Api Context</param>
-        private void LoadData(ApiContext context)
-        {
-            context.Equities.Add(new Equity { Id = 1, EquityName = "HIL", Price = 42.11 });
-            context.Equities.Add(new Equity { Id = 2, EquityName = "ITC", Price = 202.43 });
-            context.Equities.Add(new Equity { Id = 3, EquityName = "TCS", Price = 321.21 });
-            context.Equities.Add(new Equity { Id = 4, EquityName = "India Bulls", Price = 1020.21 });
-            context.Equities.Add(new Equity { Id = 5, EquityName = "HDFC Bank", Price = 1522.35 });
-            context.Equities.Add(new Equity { Id = 6, EquityName = "PNB", Price = 40.75 });
-            context.Equities.Add(new Equity { Id = 7, EquityName = "Reliance", Price = 2500.54 });
-
-            context.TraderFunds.Add(new TraderFund { Id = 1, RemainingBalance = 0 });
-
-            context.SaveChanges();
-        }
-
-        #endregion
     }
 }
