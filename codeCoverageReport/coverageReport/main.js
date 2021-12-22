@@ -224,18 +224,18 @@ var assemblies = [
   {
     "name": "eBroker",
     "classes": [
-      { "name": "eBroker.Controllers.FundController", "rp": "eBroker_FundController.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 50, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Controllers.TraderEquityController", "rp": "eBroker_TraderEquityController.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 71, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Program", "rp": "eBroker_Program.html", "cl": 0, "ucl": 8, "cal": 8, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Startup", "rp": "eBroker_Startup.html", "cl": 0, "ucl": 29, "cal": 29, "tl": 70, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Controllers.FundController", "rp": "eBroker_FundController.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 50, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Controllers.TraderEquityController", "rp": "eBroker_TraderEquityController.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 71, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Program", "rp": "eBroker_Program.html", "cl": 0, "ucl": 7, "cal": 7, "tl": 26, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Startup", "rp": "eBroker_Startup.html", "cl": 0, "ucl": 24, "cal": 24, "tl": 70, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 2, "lch": [], "bch": [], "hc": [] },
     ]},
   {
     "name": "eBroker.Repository",
     "classes": [
-      { "name": "eBroker.Repository.ApiContext", "rp": "eBroker.Repository_ApiContext.html", "cl": 17, "ucl": 0, "cal": 17, "tl": 55, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Repository.Implementation.EquityRepository", "rp": "eBroker.Repository_EquityRepository.html", "cl": 10, "ucl": 0, "cal": 10, "tl": 56, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Repository.Implementation.TraderEquityRepository", "rp": "eBroker.Repository_TraderEquityRepository.html", "cl": 32, "ucl": 0, "cal": 32, "tl": 95, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Repository.Implementation.TraderFundRepository", "rp": "eBroker.Repository_TraderFundRepository.html", "cl": 18, "ucl": 0, "cal": 18, "tl": 72, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Repository.ApiContext", "rp": "eBroker.Repository_ApiContext.html", "cl": 15, "ucl": 0, "cal": 15, "tl": 55, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Repository.Implementation.EquityRepository", "rp": "eBroker.Repository_EquityRepository.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 56, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Repository.Implementation.TraderEquityRepository", "rp": "eBroker.Repository_TraderEquityRepository.html", "cl": 21, "ucl": 0, "cal": 21, "tl": 95, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Repository.Implementation.TraderFundRepository", "rp": "eBroker.Repository_TraderFundRepository.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 72, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
       { "name": "eBroker.Repository.Model.Equity", "rp": "eBroker.Repository_Equity.html", "cl": 3, "ucl": 0, "cal": 3, "tl": 29, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "eBroker.Repository.Model.TraderEquity", "rp": "eBroker.Repository_TraderEquity.html", "cl": 4, "ucl": 0, "cal": 4, "tl": 34, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
       { "name": "eBroker.Repository.Model.TraderFund", "rp": "eBroker.Repository_TraderFund.html", "cl": 2, "ucl": 0, "cal": 2, "tl": 24, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
@@ -243,14 +243,14 @@ var assemblies = [
   {
     "name": "eBroker.Service",
     "classes": [
-      { "name": "eBroker.Service.Dto.TradeEquityBuyDto", "rp": "eBroker.Service_TradeEquityBuyDto.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Dto.TraderEquityDto", "rp": "eBroker.Service_TraderEquityDto.html", "cl": 13, "ucl": 0, "cal": 13, "tl": 51, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Dto.TraderEquitySellDto", "rp": "eBroker.Service_TraderEquitySellDto.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Dto.TraderFundDto", "rp": "eBroker.Service_TraderFundDto.html", "cl": 9, "ucl": 0, "cal": 9, "tl": 36, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Implementation.TradeFundService", "rp": "eBroker.Service_TradeFundService.html", "cl": 11, "ucl": 0, "cal": 11, "tl": 53, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Implementation.TraderEquityService", "rp": "eBroker.Service_TraderEquityService.html", "cl": 51, "ucl": 0, "cal": 51, "tl": 137, "ct": "LineCoverage", "mc": "-", "cb": 18, "tb": 18, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Utils.DateTimeHelper", "rp": "eBroker.Service_DateTimeHelper.html", "cl": 7, "ucl": 0, "cal": 7, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
-      { "name": "eBroker.Service.Utils.Helper", "rp": "eBroker.Service_Helper.html", "cl": 16, "ucl": 0, "cal": 16, "tl": 44, "ct": "LineCoverage", "mc": "-", "cb": 10, "tb": 10, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Dto.TradeEquityBuyDto", "rp": "eBroker.Service_TradeEquityBuyDto.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Dto.TraderEquityDto", "rp": "eBroker.Service_TraderEquityDto.html", "cl": 12, "ucl": 0, "cal": 12, "tl": 51, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Dto.TraderEquitySellDto", "rp": "eBroker.Service_TraderEquitySellDto.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Dto.TraderFundDto", "rp": "eBroker.Service_TraderFundDto.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 36, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Implementation.TradeFundService", "rp": "eBroker.Service_TradeFundService.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 53, "ct": "LineCoverage", "mc": "-", "cb": 0, "tb": 0, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Implementation.TraderEquityService", "rp": "eBroker.Service_TraderEquityService.html", "cl": 38, "ucl": 0, "cal": 38, "tl": 137, "ct": "LineCoverage", "mc": "-", "cb": 18, "tb": 18, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Utils.DateTimeHelper", "rp": "eBroker.Service_DateTimeHelper.html", "cl": 5, "ucl": 0, "cal": 5, "tl": 39, "ct": "LineCoverage", "mc": "-", "cb": 2, "tb": 2, "lch": [], "bch": [], "hc": [] },
+      { "name": "eBroker.Service.Utils.Helper", "rp": "eBroker.Service_Helper.html", "cl": 8, "ucl": 0, "cal": 8, "tl": 44, "ct": "LineCoverage", "mc": "-", "cb": 10, "tb": 10, "lch": [], "bch": [], "hc": [] },
     ]},
 ];
 

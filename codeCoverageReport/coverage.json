@@ -22,7 +22,6 @@
         },
         "System.Void eBroker.Repository.ApiContext::LoadData()": {
           "Lines": {
-            "41": 1,
             "42": 1,
             "43": 1,
             "44": 1,
@@ -39,7 +38,6 @@
         "System.Void eBroker.Repository.ApiContext::.ctor(Microsoft.EntityFrameworkCore.DbContextOptions)": {
           "Lines": {
             "33": 42,
-            "34": 42,
             "35": 42
           },
           "Branches": []
@@ -116,24 +114,19 @@
       "eBroker.Repository.Implementation.EquityRepository": {
         "System.Collections.Generic.List`1<eBroker.Repository.Model.Equity> eBroker.Repository.Implementation.EquityRepository::GetAll()": {
           "Lines": {
-            "40": 1,
-            "41": 1,
-            "42": 1
+            "41": 1
           },
           "Branches": []
         },
         "eBroker.Repository.Model.Equity eBroker.Repository.Implementation.EquityRepository::GetById(System.Int32)": {
           "Lines": {
-            "50": 2,
-            "51": 2,
-            "52": 2
+            "51": 2
           },
           "Branches": []
         },
         "System.Void eBroker.Repository.Implementation.EquityRepository::.ctor(eBroker.Repository.ApiContext)": {
           "Lines": {
             "26": 3,
-            "27": 3,
             "28": 3,
             "29": 3
           },
@@ -145,36 +138,28 @@
       "eBroker.Repository.Implementation.TraderEquityRepository": {
         "System.Collections.Generic.List`1<eBroker.Repository.Model.TraderEquity> eBroker.Repository.Implementation.TraderEquityRepository::GetAll()": {
           "Lines": {
-            "40": 2,
-            "41": 2,
-            "42": 2
+            "41": 2
           },
           "Branches": []
         },
         "System.Collections.Generic.List`1<eBroker.Repository.Model.TraderEquity> eBroker.Repository.Implementation.TraderEquityRepository::Get(System.Int32)": {
           "Lines": {
-            "50": 2,
-            "51": 2,
-            "52": 2
+            "51": 2
           },
           "Branches": []
         },
         "eBroker.Repository.Model.TraderEquity eBroker.Repository.Implementation.TraderEquityRepository::Get(System.Int32,System.Int32)": {
           "Lines": {
-            "61": 4,
-            "62": 4,
-            "63": 4
+            "62": 4
           },
           "Branches": []
         },
         "eBroker.Repository.Model.TraderEquity eBroker.Repository.Implementation.TraderEquityRepository::AddOrUpdate(eBroker.Repository.Model.TraderEquity)": {
           "Lines": {
-            "71": 2,
             "72": 2,
             "73": 2,
             "74": 2,
             "75": 2,
-            "76": 1,
             "77": 1,
             "78": 1,
             "79": 1,
@@ -182,26 +167,24 @@
             "81": 1,
             "82": 1,
             "83": 1,
-            "84": 1,
             "86": 2,
             "87": 2,
             "88": 2,
-            "90": 2,
-            "91": 2
+            "90": 2
           },
           "Branches": [
             {
               "Line": 75,
-              "Offset": 237,
-              "EndOffset": 239,
+              "Offset": 231,
+              "EndOffset": 233,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
               "Line": 75,
-              "Offset": 237,
-              "EndOffset": 313,
+              "Offset": 231,
+              "EndOffset": 303,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 2
@@ -211,7 +194,6 @@
         "System.Void eBroker.Repository.Implementation.TraderEquityRepository::.ctor(eBroker.Repository.ApiContext)": {
           "Lines": {
             "26": 10,
-            "27": 10,
             "28": 10,
             "29": 10
           },
@@ -223,23 +205,18 @@
       "eBroker.Repository.Implementation.TraderFundRepository": {
         "System.Collections.Generic.List`1<eBroker.Repository.Model.TraderFund> eBroker.Repository.Implementation.TraderFundRepository::GetAll()": {
           "Lines": {
-            "40": 1,
-            "41": 1,
-            "42": 1
+            "41": 1
           },
           "Branches": []
         },
         "eBroker.Repository.Model.TraderFund eBroker.Repository.Implementation.TraderFundRepository::GetById(System.Int32)": {
           "Lines": {
-            "50": 3,
-            "51": 3,
-            "52": 3
+            "51": 3
           },
           "Branches": []
         },
         "System.Void eBroker.Repository.Implementation.TraderFundRepository::Update(eBroker.Repository.Model.TraderFund)": {
           "Lines": {
-            "59": 2,
             "60": 2,
             "62": 2,
             "63": 1,
@@ -251,16 +228,16 @@
           "Branches": [
             {
               "Line": 62,
-              "Offset": 150,
-              "EndOffset": 152,
+              "Offset": 144,
+              "EndOffset": 146,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
               "Line": 62,
-              "Offset": 150,
-              "EndOffset": 163,
+              "Offset": 144,
+              "EndOffset": 157,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 1
@@ -270,7 +247,6 @@
         "System.Void eBroker.Repository.Implementation.TraderFundRepository::.ctor(eBroker.Repository.ApiContext)": {
           "Lines": {
             "26": 5,
-            "27": 5,
             "28": 5,
             "29": 5
           },
@@ -284,21 +260,21 @@
       "eBroker.Service.Utils.DateTimeHelper": {
         "System.DateTime eBroker.Service.Utils.DateTimeHelper::get_Now()": {
           "Lines": {
-            "20": 42
+            "20": 14
           },
           "Branches": [
             {
               "Line": 20,
-              "Offset": 14,
-              "EndOffset": 16,
+              "Offset": 13,
+              "EndOffset": 15,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 2
             },
             {
               "Line": 20,
-              "Offset": 14,
-              "EndOffset": 23,
+              "Offset": 13,
+              "EndOffset": 21,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 12
@@ -307,7 +283,6 @@
         },
         "System.Void eBroker.Service.Utils.DateTimeHelper::Set(System.DateTime)": {
           "Lines": {
-            "27": 13,
             "28": 13,
             "29": 13
           },
@@ -315,7 +290,6 @@
         },
         "System.Void eBroker.Service.Utils.DateTimeHelper::Reset()": {
           "Lines": {
-            "35": 1,
             "36": 1,
             "37": 1
           },
@@ -327,28 +301,24 @@
       "eBroker.Service.Utils.Helper": {
         "System.Double eBroker.Service.Utils.Helper::CalculateAddFundCharge(System.Double)": {
           "Lines": {
-            "18": 4,
             "19": 4,
             "21": 4,
-            "22": 2,
             "23": 2,
-            "24": 2,
-            "26": 4,
-            "27": 4
+            "26": 4
           },
           "Branches": [
             {
               "Line": 21,
-              "Offset": 25,
-              "EndOffset": 27,
+              "Offset": 20,
+              "EndOffset": 22,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 2
             },
             {
               "Line": 21,
-              "Offset": 25,
-              "EndOffset": 51,
+              "Offset": 20,
+              "EndOffset": 44,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 4
@@ -357,76 +327,72 @@
         },
         "System.Boolean eBroker.Service.Utils.Helper::TimeEligibleForTrading(System.DateTime)": {
           "Lines": {
-            "34": 14,
             "35": 14,
             "37": 14,
-            "38": 10,
             "39": 10,
-            "40": 10,
-            "41": 14,
-            "42": 14
+            "41": 14
           },
           "Branches": [
             {
               "Line": 37,
-              "Offset": 11,
-              "EndOffset": 13,
+              "Offset": 10,
+              "EndOffset": 12,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 11
             },
             {
               "Line": 37,
-              "Offset": 20,
-              "EndOffset": 22,
+              "Offset": 19,
+              "EndOffset": 21,
               "Path": 0,
               "Ordinal": 2,
               "Hits": 11
             },
             {
               "Line": 37,
-              "Offset": 43,
-              "EndOffset": 45,
+              "Offset": 42,
+              "EndOffset": 44,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 11
             },
             {
               "Line": 37,
-              "Offset": 11,
-              "EndOffset": 68,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 3
-            },
-            {
-              "Line": 37,
-              "Offset": 20,
-              "EndOffset": 68,
-              "Path": 1,
-              "Ordinal": 3,
-              "Hits": 3
-            },
-            {
-              "Line": 37,
-              "Offset": 43,
-              "EndOffset": 68,
-              "Path": 1,
-              "Ordinal": 5,
-              "Hits": 3
-            },
-            {
-              "Line": 37,
-              "Offset": 71,
-              "EndOffset": 73,
+              "Offset": 65,
+              "EndOffset": 67,
               "Path": 0,
               "Ordinal": 6,
               "Hits": 10
             },
             {
               "Line": 37,
-              "Offset": 71,
-              "EndOffset": 77,
+              "Offset": 10,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 1,
+              "Hits": 14
+            },
+            {
+              "Line": 37,
+              "Offset": 19,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 3,
+              "Hits": 14
+            },
+            {
+              "Line": 37,
+              "Offset": 42,
+              "EndOffset": 69,
+              "Path": 1,
+              "Ordinal": 5,
+              "Hits": 14
+            },
+            {
+              "Line": 37,
+              "Offset": 65,
+              "EndOffset": 69,
               "Path": 1,
               "Ordinal": 7,
               "Hits": 14
@@ -439,20 +405,17 @@
       "eBroker.Service.Implementation.TradeFundService": {
         "eBroker.Service.Dto.TraderFundDto eBroker.Service.Implementation.TradeFundService::AddFunds(System.Double)": {
           "Lines": {
-            "39": 2,
             "41": 2,
             "44": 2,
             "45": 2,
             "46": 2,
-            "48": 2,
-            "49": 2
+            "48": 2
           },
           "Branches": []
         },
         "System.Void eBroker.Service.Implementation.TradeFundService::.ctor(eBroker.Repository.Interface.ITraderFundRepository)": {
           "Lines": {
             "24": 2,
-            "25": 2,
             "26": 2,
             "27": 2
           },
@@ -464,73 +427,67 @@
       "eBroker.Service.Implementation.TraderEquityService": {
         "eBroker.Service.Dto.TradeEquityBuyDto eBroker.Service.Implementation.TraderEquityService::BuyEquity(System.Int32,System.Int32)": {
           "Lines": {
-            "56": 4,
             "57": 4,
-            "58": 1,
             "59": 1,
             "63": 3,
             "66": 3,
             "67": 3,
             "68": 3,
-            "69": 1,
             "70": 1,
             "74": 2,
             "75": 2,
-            "76": 1,
             "77": 1,
-            "78": 1,
             "81": 2,
             "82": 2,
             "83": 2,
             "84": 2,
-            "86": 2,
-            "87": 2
+            "86": 2
           },
           "Branches": [
             {
               "Line": 57,
-              "Offset": 18,
-              "EndOffset": 20,
+              "Offset": 10,
+              "EndOffset": 12,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
               "Line": 57,
-              "Offset": 18,
-              "EndOffset": 32,
+              "Offset": 10,
+              "EndOffset": 23,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 3
             },
             {
               "Line": 68,
-              "Offset": 81,
-              "EndOffset": 83,
+              "Offset": 66,
+              "EndOffset": 68,
               "Path": 0,
               "Ordinal": 2,
               "Hits": 1
             },
             {
               "Line": 68,
-              "Offset": 81,
-              "EndOffset": 95,
+              "Offset": 66,
+              "EndOffset": 79,
               "Path": 1,
               "Ordinal": 3,
               "Hits": 2
             },
             {
               "Line": 75,
-              "Offset": 122,
-              "EndOffset": 124,
+              "Offset": 99,
+              "EndOffset": 101,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 1
             },
             {
               "Line": 75,
-              "Offset": 122,
-              "EndOffset": 166,
+              "Offset": 99,
+              "EndOffset": 138,
               "Path": 1,
               "Ordinal": 5,
               "Hits": 2
@@ -539,124 +496,118 @@
         },
         "eBroker.Service.Dto.TraderEquitySellDto eBroker.Service.Implementation.TraderEquityService::SellEquity(System.Int32,System.Int32)": {
           "Lines": {
-            "96": 7,
             "97": 7,
-            "98": 1,
             "99": 1,
             "103": 6,
             "106": 6,
             "107": 6,
-            "108": 2,
             "109": 2,
             "111": 4,
-            "112": 1,
             "113": 1,
             "117": 3,
             "118": 3,
             "119": 3,
             "121": 3,
-            "122": 1,
             "123": 1,
             "127": 2,
             "128": 2,
             "129": 2,
             "130": 2,
-            "132": 2,
-            "133": 2
+            "132": 2
           },
           "Branches": [
             {
               "Line": 97,
-              "Offset": 18,
-              "EndOffset": 20,
+              "Offset": 10,
+              "EndOffset": 12,
               "Path": 0,
               "Ordinal": 0,
               "Hits": 1
             },
             {
               "Line": 97,
-              "Offset": 18,
-              "EndOffset": 32,
+              "Offset": 10,
+              "EndOffset": 23,
               "Path": 1,
               "Ordinal": 1,
               "Hits": 6
             },
             {
               "Line": 107,
-              "Offset": 65,
-              "EndOffset": 67,
+              "Offset": 56,
+              "EndOffset": 58,
               "Path": 0,
               "Ordinal": 2,
               "Hits": 5
             },
             {
               "Line": 107,
-              "Offset": 65,
-              "EndOffset": 78,
+              "Offset": 56,
+              "EndOffset": 66,
               "Path": 1,
               "Ordinal": 3,
-              "Hits": 1
+              "Hits": 2
             },
             {
               "Line": 107,
-              "Offset": 83,
-              "EndOffset": 85,
+              "Offset": 64,
+              "EndOffset": 66,
               "Path": 0,
               "Ordinal": 4,
               "Hits": 2
             },
             {
               "Line": 107,
-              "Offset": 83,
-              "EndOffset": 97,
+              "Offset": 64,
+              "EndOffset": 77,
               "Path": 1,
               "Ordinal": 5,
               "Hits": 4
             },
             {
               "Line": 111,
-              "Offset": 110,
-              "EndOffset": 112,
+              "Offset": 84,
+              "EndOffset": 86,
               "Path": 0,
               "Ordinal": 6,
               "Hits": 1
             },
             {
               "Line": 111,
-              "Offset": 110,
-              "EndOffset": 124,
+              "Offset": 84,
+              "EndOffset": 97,
               "Path": 1,
               "Ordinal": 7,
               "Hits": 3
             },
             {
               "Line": 119,
-              "Offset": 177,
-              "EndOffset": 179,
+              "Offset": 148,
+              "EndOffset": 150,
               "Path": 0,
               "Ordinal": 8,
               "Hits": 1
             },
             {
               "Line": 119,
-              "Offset": 177,
-              "EndOffset": 202,
+              "Offset": 148,
+              "EndOffset": 173,
               "Path": 1,
               "Ordinal": 9,
               "Hits": 2
             },
             {
               "Line": 121,
-              "Offset": 239,
-              "EndOffset": 241,
+              "Offset": 202,
+              "EndOffset": 204,
               "Path": 0,
               "Ordinal": 10,
               "Hits": 1
             },
             {
               "Line": 121,
-              "Offset": 239,
-              "EndOffset": 253,
+              "Offset": 202,
+              "EndOffset": 215,
               "Path": 1,
               "Ordinal": 11,
               "Hits": 2
@@ -666,7 +617,6 @@
         "System.Void eBroker.Service.Implementation.TraderEquityService::.ctor(eBroker.Repository.Interface.ITraderFundRepository,eBroker.Repository.Interface.IEquityRepository,eBroker.Repository.Interface.ITraderEquityRepository)": {
           "Lines": {
             "38": 11,
-            "39": 11,
             "40": 11,
             "41": 11,
             "42": 11,
@@ -693,7 +643,6 @@
         "System.Void eBroker.Service.Dto.TradeEquityBuyDto::.ctor(eBroker.Repository.Model.TraderEquity,System.Double,System.Double)": {
           "Lines": {
             "27": 2,
-            "28": 2,
             "29": 2,
             "30": 2,
             "31": 2
@@ -702,8 +651,8 @@
         },
         "System.Void eBroker.Service.Dto.TradeEquityBuyDto::.ctor()": {
           "Lines": {
-            "36": 1,
-            "37": 2
+            "36": 0,
+            "37": 0
           },
           "Branches": []
         }
@@ -738,7 +687,6 @@
         "System.Void eBroker.Service.Dto.TraderEquityDto::.ctor(eBroker.Repository.Model.TraderEquity)": {
           "Lines": {
             "37": 4,
-            "38": 4,
             "39": 4,
             "40": 4,
             "41": 4,
@@ -749,8 +697,8 @@
         },
         "System.Void eBroker.Service.Dto.TraderEquityDto::.ctor()": {
           "Lines": {
-            "48": 2,
-            "49": 4
+            "48": 0,
+            "49": 0
           },
           "Branches": []
         }
@@ -773,7 +721,6 @@
         "System.Void eBroker.Service.Dto.TraderEquitySellDto::.ctor(eBroker.Repository.Model.TraderEquity,System.Double,System.Double)": {
           "Lines": {
             "27": 2,
-            "28": 2,
             "29": 2,
             "30": 2,
             "31": 2
@@ -782,8 +729,8 @@
         },
         "System.Void eBroker.Service.Dto.TraderEquitySellDto::.ctor()": {
           "Lines": {
-            "36": 1,
-            "37": 2
+            "36": 0,
+            "37": 0
           },
           "Branches": []
         }
@@ -793,20 +740,19 @@
       "eBroker.Service.Dto.TraderFundDto": {
         "System.Int32 eBroker.Service.Dto.TraderFundDto::get_Id()": {
           "Lines": {
-            "13": 5
+            "13": 4
           },
           "Branches": []
         },
         "System.Double eBroker.Service.Dto.TraderFundDto::get_RemainingBalance()": {
           "Lines": {
-            "18": 5
+            "18": 4
           },
           "Branches": []
         },
         "System.Void eBroker.Service.Dto.TraderFundDto::.ctor(eBroker.Repository.Model.TraderFund)": {
           "Lines": {
             "24": 2,
-            "25": 2,
             "26": 2,
             "27": 2,
             "28": 2
@@ -815,164 +761,8 @@
         },
         "System.Void eBroker.Service.Dto.TraderFundDto::.ctor()": {
           "Lines": {
-            "33": 1,
-            "34": 2
-          },
-          "Branches": []
-        }
-      }
-    }
-  },
-  "eBroker.dll": {
-    "D:\\Nagarro Documents\\Nagarro\\NAGP 2021\\Workshops\\Unit Testing\\GIT\\eBroker\\eBroker\\Program.cs": {
-      "eBroker.Program": {
-        "System.Void eBroker.Program::Main(System.String[])": {
-          "Lines": {
-            "15": 0,
-            "16": 0,
-            "17": 0
-          },
-          "Branches": []
-        },
-        "Microsoft.Extensions.Hosting.IHostBuilder eBroker.Program::CreateHostBuilder(System.String[])": {
-          "Lines": {
-            "20": 0,
-            "21": 0,
-            "22": 0,
-            "23": 0,
-            "24": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "D:\\Nagarro Documents\\Nagarro\\NAGP 2021\\Workshops\\Unit Testing\\GIT\\eBroker\\eBroker\\Startup.cs": {
-      "eBroker.Startup": {
-        "Microsoft.Extensions.Configuration.IConfiguration eBroker.Startup::get_Configuration()": {
-          "Lines": {
-            "30": 0
-          },
-          "Branches": []
-        },
-        "System.Void eBroker.Startup::ConfigureServices(Microsoft.Extensions.DependencyInjection.IServiceCollection)": {
-          "Lines": {
-            "34": 0,
-            "35": 0,
-            "36": 0,
-            "37": 0,
-            "38": 0,
-            "39": 0,
-            "41": 0,
-            "42": 0,
-            "44": 0,
-            "45": 0
-          },
-          "Branches": []
-        },
-        "System.Void eBroker.Startup::Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment,System.IServiceProvider)": {
-          "Lines": {
-            "49": 0,
-            "50": 0,
-            "51": 0,
-            "52": 0,
-            "53": 0,
-            "55": 0,
-            "57": 0,
-            "59": 0,
-            "61": 0,
-            "62": 0,
-            "63": 0,
-            "64": 0,
-            "67": 0,
-            "68": 0
-          },
-          "Branches": [
-            {
-              "Line": 50,
-              "Offset": 9,
-              "EndOffset": 11,
-              "Path": 0,
-              "Ordinal": 0,
-              "Hits": 0
-            },
-            {
-              "Line": 50,
-              "Offset": 9,
-              "EndOffset": 20,
-              "Path": 1,
-              "Ordinal": 1,
-              "Hits": 0
-            }
-          ]
-        },
-        "System.Void eBroker.Startup::.ctor(Microsoft.Extensions.Configuration.IConfiguration)": {
-          "Lines": {
-            "25": 0,
-            "26": 0,
-            "27": 0,
-            "28": 0
-          },
-          "Branches": []
-        }
-      }
-    },
-    "D:\\Nagarro Documents\\Nagarro\\NAGP 2021\\Workshops\\Unit Testing\\GIT\\eBroker\\eBroker\\Controllers\\FundController.cs": {
-      "eBroker.Controllers.FundController": {
-        "Microsoft.AspNetCore.Mvc.IActionResult eBroker.Controllers.FundController::Add(System.Double)": {
-          "Lines": {
-            "39": 2,
-            "41": 2,
-            "42": 2,
-            "44": 1,
-            "45": 1,
-            "46": 1,
-            "48": 2
-          },
-          "Branches": []
-        },
-        "System.Void eBroker.Controllers.FundController::.ctor(eBroker.Service.Interface.ITradeFundService)": {
-          "Lines": {
-            "24": 2,
-            "25": 2,
-            "26": 2,
-            "27": 2
-          },
-          "Branches": []
-        }
-      }
-    },
-    "D:\\Nagarro Documents\\Nagarro\\NAGP 2021\\Workshops\\Unit Testing\\GIT\\eBroker\\eBroker\\Controllers\\TraderEquityController.cs": {
-      "eBroker.Controllers.TraderEquityController": {
-        "Microsoft.AspNetCore.Mvc.IActionResult eBroker.Controllers.TraderEquityController::Buy(System.Int32,System.Int32)": {
-          "Lines": {
-            "40": 2,
-            "42": 2,
-            "43": 2,
-            "45": 1,
-            "46": 1,
-            "47": 1,
-            "49": 2
-          },
-          "Branches": []
-        },
-        "Microsoft.AspNetCore.Mvc.IActionResult eBroker.Controllers.TraderEquityController::Sell(System.Int32,System.Int32)": {
-          "Lines": {
-            "60": 2,
-            "62": 2,
-            "63": 2,
-            "65": 1,
-            "66": 1,
-            "67": 1,
-            "69": 2
-          },
-          "Branches": []
-        },
-        "System.Void eBroker.Controllers.TraderEquityController::.ctor(eBroker.Service.Interface.ITraderEquityService)": {
-          "Lines": {
-            "24": 4,
-            "25": 4,
-            "26": 4,
-            "27": 4
+            "33": 0,
+            "34": 0
           },
           "Branches": []
         }
